@@ -61,3 +61,9 @@ p.para {
 .font-roboto {
   font-family: var(--roboto);
 }
+.bold {
+  font-weight: bold;
+}
+.title-h1 {
+  font: normal bold 39px/40px var(--roboto);
+}
