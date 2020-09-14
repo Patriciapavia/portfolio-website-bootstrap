@@ -210,6 +210,147 @@ button:active button:hover .btn.active {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 /* end project area */
-.padding-top {
-  padding-top: 20rem;
+
+/* about me/ client */
+.site-main .about-area .about-title {
+  padding: 1rem 7rem;
+}
+.site-main .about-area .client {
+  background-color: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 1rem;
+  justify-content: center;
+  display: flex;
+}
+.site-main .about-area .client .client-img {
+  padding: 1rem;
+}
+.site-main .about-area .client .about-client {
+  padding-top: 1rem;
+}
+
+.site-main .about-area .client .about-client h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p {
+  font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
+  background-color: var(--primary-color2);
+  width: 12px;
+  height: 12px;
+}
+/* end about me/ client */
+
+/* subscribe me */
+.site-main .subscribe-us-area .subscribe {
+  background: url(../image/subscribe-bg.png) no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+.site-main .subscribe-us-area .subscribe p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/20px var(--roboto);
+}
+.site-main
+  .subscribe-us-area
+  .subscribe
+  form
+  .input-textbox
+  input::placeholder {
+  color: white;
+}
+.site-main .subscribe-us-area .subscribe form .btn-submit button {
+  background-color: whitesmoke;
+  color: #000;
+  padding: 0.8rem 2rem;
+}
+
+/* end subscribe me */
+
+/* footer area */
+
+.footer-area {
+  padding: 5rem 0;
+  background: url(../image/footer-bg.png) no-repeat;
+}
+.footer-area .social h5 {
+  font-variant: normal 500 23px/30px var(--roboto);
+}
+
+.social a > i {
+  font-size: 50px;
+  padding: 2rem 1rem;
+}
+
+.social a:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* end footer area */
+
+/* Responsive */
+
+@media only screen and (max-width: 1000px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .subscribe,
+  .services-title,
+  .subscribe p h4,
+  .services-area {
+    padding: 3%;
+    margin: 0%;
+  }
+
+  .header_area .main-menu .navbar .navbar-nav .nav-item a {
+    font-size: 25px;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 60px;
+  }
+
+  .about-area .about-title .para {
+    font-size: 25px;
+  }
+
+  .services-area .services-title .para {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .subscribe,
+  .services-title,
+  .subscribe p h4,
+  .services-area {
+    padding: 3%;
+    margin: 0%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 30px;
+  }
+
+  .input-textbox {
+    width: 15rem;
+  }
 }
