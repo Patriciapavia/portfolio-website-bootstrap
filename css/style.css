@@ -44,6 +44,7 @@
 .cv-btn a {
   color: whitesmoke;
 }
+
 .site-main .site-banner .site-title h3 {
   padding-top: 30%;
   font-weight: 500;
@@ -85,10 +86,6 @@
 }
 .site-main .about-area .about-title .paragraph > p {
   padding: 2rem 0;
-}
-
-.about-image {
-  width: 400px;
 }
 
 /* end about area */
@@ -265,13 +262,7 @@ button:active button:hover .btn.active {
   }
 }
 
-@media only screen and (max-width: 792px) {
-  .site-main .about-area .about-title h2 > span {
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  .site-main .about-area .about-title .para {
-    font-size: 15px;
-    width: 100%;
+@media only screen and (max-width: 367px) {
+  .about-img img {
   }
 }
