@@ -196,4 +196,11 @@ button:active button:hover .btn.active {
   .services-img img {
     margin-right: -100px;
   }
+  .title-contact {
+    font-size: 40px;
+    margin-right: -15px;
+  }
+  .social .para > p {
+    font-size: 25px;
+  }
 }
