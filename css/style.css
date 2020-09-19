@@ -189,7 +189,11 @@ button:active button:hover .btn.active {
   .site-main .services-area .services-title h1 {
     font-size: 30px;
   }
-  .card-body {
+  .card-body,
+  .title-h1 {
+    margin-right: -100px;
+  }
+  .services-img img {
     margin-right: -100px;
   }
 }
