@@ -4,6 +4,10 @@
 /* global style */
 @import url(./partials/_global.css);
 
+.container {
+  width: 100%;
+  max-width: 90%;
+}
 /* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -93,7 +97,6 @@
 /* start services */
 
 .site-main .services-area {
-  padding: 7rem 2rem;
 }
 .site-main .services-area .services-title {
   padding: 0 14rem;
@@ -202,5 +205,15 @@ button:active button:hover .btn.active {
   }
   .social .para > p {
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
   }
 }
